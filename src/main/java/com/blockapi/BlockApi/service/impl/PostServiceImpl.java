@@ -51,7 +51,7 @@ public class PostServiceImpl implements PostService {
             post.setPostDate(new Date());
             post.setUser(user);
             post.setCategory(category);
-           Post newPost=this.postRepo.save(post);
+             Post newPost=this.postRepo.save(post);
             log.info("Post Created servImpl>>>>>end");
 
 
